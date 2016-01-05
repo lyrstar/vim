@@ -100,3 +100,6 @@ let g:SrcExpl_pluginList = [
                  \ "_NERD_tree_"
                      \ ]
 nnoremap <F5> :call g:Jsbeautify()<CR>  
+set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+set termencoding=utf-8
+set encoding=utf-8
