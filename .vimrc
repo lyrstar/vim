@@ -55,6 +55,9 @@ let g:tagbar_left = 1
 nnoremap <F3> :TagbarToggle<CR>
 let NERDTreeWinPos='left'
 nnoremap <F2> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1 "显示隐藏文件
+autocmd BufReadPost * :NERDTree        "启动vim时 自动打开NERDTree
+autocmd VimEnter * wincmd w "光标自动显示在编辑区
 
 "set tags=tags;/  "搜索上一级建立的tag
 
