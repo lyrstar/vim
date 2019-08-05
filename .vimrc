@@ -69,7 +69,7 @@ set autochdir
 
 map <F8> :! ctags -R --languages=javascript<CR>
 imap <F8> <ESC>:! ctags -R --languages=javascript<CR>
-inoremap jj <ESC>
+"inoremap jj <ESC>
 inoremap jjs <ESC>:w<CR>
 inoremap ,,n <C-X><C-N>
 inoremap ,,o <C-X><C-O>
